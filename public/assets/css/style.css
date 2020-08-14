@@ -1,0 +1,63 @@
+#navbar {
+    background-color: #512DA8;
+    color: white;
+}
+
+#logo {
+    width: 10rem;
+}
+
+#menu {
+    border: 2px solid green;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#lista-produtos {
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+td{
+    font-weight: bold;
+    color: #757575;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+hr{
+    margin-left: inherit;
+    width: 100px;
+    background: #512DA8;
+    height: 2px;
+}
+
+.text {
+    float: right;
+}
+#table {
+    width: 42rem;
+}
+#img {
+    width: 5rem;
+}
+
+#title{
+    font-weight: bold;
+    color: #757575;
+}
+
+#btn-compra, #btn-carrinho{
+    width: inherit;
+    color: white;
+    background-color: #673AB7;
+    border: #673AB7;
+    margin-top: 10px;
+}
+
+#qtd{
+    width: 70px;
+}
