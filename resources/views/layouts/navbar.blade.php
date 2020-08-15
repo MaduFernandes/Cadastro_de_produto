@@ -18,6 +18,7 @@
         <a class="nav-link" id="nav-link" href="">
             <li id="menu-opcoes">
                 {{_('Carrinho')}}
+                <i class="fas fa-shopping-cart"></i>
             </li>
         </a>
     </ul>
