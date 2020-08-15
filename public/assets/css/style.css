@@ -25,6 +25,10 @@ header{
 
 }
 
+.carousel-item{
+    height: 600px;
+}
+
 .nav-link {
     list-style: none;
 }
@@ -41,9 +45,8 @@ header{
 }
 
 #menu {
-    height: 100px;
     text-align: center;
-    margin: 50px;
+    padding: 10px;
 }
 
 #lista-produtos {
@@ -94,10 +97,6 @@ hr{
     width: 70px;
 }
 
-#col {
-    background-color: #D1C4E9;
-    border-radius: 20px;
-}
 .link{
     line-height: 6.2;
     font-weight: bold;
