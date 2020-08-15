@@ -1,17 +1,49 @@
-#navbar {
-    background-color: #512DA8;
-    color: white;
+.navbar {
+    margin: auto;
 }
 
+#nav-link,
+#menu-opcoes{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #e2e3e5;
+}
+
+#btn-contato {
+    border-radius: 20px;
+    width: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #512DA8;
+
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
 #logo {
-    width: 10rem;
+    width: 3rem;
+    cursor: pointer;
 }
 
 #menu {
-    border: 2px solid green;
     height: 100px;
     text-align: center;
-    margin-top: 20px;
+    margin: 50px;
 }
 
 #lista-produtos {
@@ -60,4 +92,14 @@ hr{
 
 #qtd{
     width: 70px;
+}
+
+#col {
+    background-color: #D1C4E9;
+    border-radius: 20px;
+}
+.link{
+    line-height: 6.2;
+    font-weight: bold;
+    color: black;
 }
