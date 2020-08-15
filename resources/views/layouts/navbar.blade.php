@@ -1,4 +1,6 @@
-<img src="{{url('/logo/Marys.png')}}" id="logo" alt="marys">
+<a class="nav-link" id="nav-link" href="{{ route('welcome') }}">
+    <img src="{{url('/logo/Marys.png')}}" id="logo" alt="marys">
+</a>
 <nav class="navbar" id="navbar">
     <ul class="navbar-nav mr-auto">
         <a class="nav-link" id="nav-link" href="{{ route('produtos') }}">
