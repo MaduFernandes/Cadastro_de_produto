@@ -21,6 +21,7 @@ class UsuarioSeeder extends Seeder
         if (User::where('email','=', $credenciais['email'])->count()){
             $usuario = (User::where('email','=', $credenciais['email'])->first());
             $usuario->save($credenciais);
+
         }else{
             User::create($credenciais);
         }
