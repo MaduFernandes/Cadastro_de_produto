@@ -1,28 +1,23 @@
 <a class="nav-link" id="nav-link" href="{{ route('welcome') }}">
     <img src="{{url('/logo/Marys.png')}}" id="logo" alt="marys">
 </a>
-<nav class="navbar" id="navbar">
-    <ul class="navbar-nav mr-auto">
-        <a class="nav-link" id="nav-link" href="{{ route('produtos') }}">
-            <li id="menu-opcoes">
-                {{_('Loja')}}
-            </li>
-        </a>
-    </ul>
-    <ul class="navbar-nav mr-auto">
-        <a class="nav-link" id="nav-link" href="">
-                <li id="menu-opcoes">
-                    {{_('Minha Conta')}}
-                </li>
-            </a>
-    </ul>
-    <ul class="navbar-nav mr-auto">
-        <a class="nav-link" id="nav-link" href="">
-            <li id="menu-opcoes">
-                {{_('Carrinho')}}
+<nav id="navbar">
+    <ul id="menu-principal">
+        <li id="menu-opcoes">
+            <a class="nav-link" id="nav-link" href="{{ route('produtos') }}">{{_('Loja')}}</a>
+        </li>
+        <li id="menu-opcoes">
+            <a class="nav-link" id="nav-link" href="">{{_('Minha Conta')}}</a>
+        </li>
+        <li id="menu-opcoes">
+            <a class="nav-link" id="nav-link" href="">{{_('Carrinho')}}
                 <i class="fas fa-shopping-cart"></i>
-            </li>
-        </a>
+            </a>
+        </li>
+        <li id="men-opcoes">
+            <a class="btn btn-success" id="btn-contato" href="">{{_('Contato')}}</a>
+
+        </li>
     </ul>
 </nav>
-<a class="btn btn-success" id="btn-contato" href="">{{_('Contato')}}</a>
+
