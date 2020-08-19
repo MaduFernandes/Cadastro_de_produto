@@ -16,6 +16,17 @@
 
 @yield('formulario-cliente')
 
+@yield('login')
+
+@yield('admin')
+
+@yield('admin-cadastro')
+
+@yield('admin-produto')
+
+@yield('admin-edit')
+
+
 
 </body>
 </html>

@@ -1,3 +1,7 @@
+body{
+    background-color: #f0f0f5;
+}
+
 body, ul, li {
     list-style: none;
     margin: 0px;
@@ -35,20 +39,28 @@ header{
     width: 3rem;
     cursor: pointer;
 }
-/* FIM DO NAVBAR */
+
+/* MENU */
+#link{
+    line-height: 6.2;
+    font-weight: bold;
+    color: #757575;
+    text-decoration: none;
+}
+#col{
+    justify-content: flex-start;
+}
+#menu {
+    text-align: center;
+}
+/* FIM DO MENU */
 
 .carousel-item{
     height: 600px;
 }
 
-#menu {
-    text-align: center;
-    padding: 10px;
-}
-
 #lista-produtos {
-    justify-content:space-between;
-    margin-top: 20px;
+    padding: 20px;
 }
 
 td{
@@ -94,12 +106,16 @@ hr{
     width: 70px;
 }
 
-.link{
-    line-height: 6.2;
+/* HOME ADMIN */
+
+#btn-criar,
+.buttons{
+    border-radius: 20px;
     font-weight: bold;
-    color: #757575;
+    margin-bottom: 10px;
+    color: #e2e3e5;
 }
 
-#col{
-    justify-content: flex-start;
+#row {
+    margin-left: 0px;
 }
