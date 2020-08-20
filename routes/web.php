@@ -35,7 +35,10 @@ Route::get('/login/sair', 'Login\LoginController@logout')->name('logout');
 // MIDDLEWARE - ADMIN
 Route::group(['middleware' => 'auth'], function (){
     Route::get('/admin', 'Admin\ProdutoController@index')->name('admin.index');
-    Route::get('/admin/create', 'ProdutoController@create')->name('admin.create');
-    Route::post('/admin', 'ProdutoController@store')->name('admin.store');
-    Route::delete('/admin/{id}', 'ProdutoController@destroy')->name('admin.destroy');
+    Route::get('/admin/create', 'Admin\ProdutoController@create')->name('admin.create');
+    Route::get('/admin/{id}/produto', 'Admin\ProdutoController@show')->name('admin.show');
+    Route::get('/admin/{id}', 'Admin\ProdutoController@edit')->name('admin.edit');
+    Route::put('/admin/{id}', 'Admin\ProdutoController@update')->name('admin.update');
+    Route::post('/admin', 'Admin\ProdutoController@store')->name('admin.store');
+    Route::delete('/admin/{id}', 'Admin\ProdutoController@destroy')->name('admin.destroy');
 });
